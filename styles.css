@@ -244,6 +244,9 @@ nav{
     height: 50px;
     background-color: #262628;
   }
+  .contact p {
+    text-align: center;
+  }
 }
 
  
