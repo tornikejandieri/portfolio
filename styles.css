@@ -1,49 +1,53 @@
 * {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   background-color: #161923;
-  color: #EBEDF2;
+  color: #ebedf2;
 }
-@font-face{
-  font-family: 'cedarville-cursive';
+html,
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: "cedarville-cursive";
   src: url(fonts/CedarvilleCursive-Regular.ttf);
   font-style: normal;
   font-weight: 100;
 }
-nav{
+nav {
   width: 100%;
   margin-bottom: 30px;
-  background-color: #5852F2;
+  background-color: #5852f2;
 }
-p{
+p {
   font-size: 20px;
   color: rgb(188, 188, 188);
 }
-.nav-bar{
+.nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   gap: 10px;
-  background-color: #5852F2;
-  
+  background-color: #5852f2;
 }
-.nav-bar ul{
+.nav-bar ul {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  background-color: #5852F2;
+  background-color: #5852f2;
   margin-right: 20px;
   list-style: none;
 }
-.nav-bar a{
+.nav-bar a {
   display: flex;
   flex-direction: row;
   text-decoration: none;
-  background-color: #5852F2;
+  background-color: #5852f2;
   text-align: center;
   font-weight: bolder;
 }
-.nav-bar li{
-  background-color: #5852F2;
+.nav-bar li {
+  background-color: #5852f2;
 }
 
 .hello-grid {
@@ -52,56 +56,53 @@ p{
   justify-content: center;
   width: 100%;
   height: 400px;
-  border: solid 1px #6F6BF2;
+  border: solid 1px #6f6bf2;
   border-radius: 20px;
   gap: 300px;
   margin-top: 100px;
 }
-.hello-text{
+.hello-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.hello-grid p{
+.hello-grid p {
   margin: 5px;
   margin-left: 30px;
   font-size: smaller;
   font-weight: lighter;
   font-family: sans-serif;
 }
-.hello-grid h2{
+.hello-grid h2 {
   margin: 5px;
   margin-left: 30px;
   font-size: 50px;
 }
-.hello-image{
+.hello-image {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
-.hello-image img{
+.hello-image img {
   width: 300px;
   height: auto;
   border-radius: 50%;
 }
-.mobile-image{
+.mobile-image {
   display: none;
 }
 
-@media screen and (max-width: 700px){
-
-  .hello-image{
+@media screen and (max-width: 700px) {
+  .hello-image {
     display: none;
   }
-  .mobile-image{
+  .mobile-image {
     width: 200px;
     display: flex;
-
   }
 
-  .hello-grid{
+  .hello-grid {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -109,18 +110,18 @@ p{
     border: none;
     margin-bottom: 40px;
   }
-  .hello-text p{
+  .hello-text p {
     margin: 0;
     text-align: center;
   }
-  .hello-text h2{
+  .hello-text h2 {
     margin: 0;
     text-align: center;
     margin-top: 14px;
     margin-bottom: 10px;
     font-size: 35px;
   }
-  .line{
+  .line {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,92 +130,86 @@ p{
     height: 2px;
     background-color: #2f2f31;
     margin-bottom: 220px;
-    
   }
- 
 }
 
-.about-me-text{
+.about-me-text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
 }
-.about-me-text h2{
+.about-me-text h2 {
   font-size: 30px;
-  color: #AAA7F2;
+  color: #aaa7f2;
 }
-.about-me-text p{
+.about-me-text p {
   width: 350px;
   font-family: sans-serif;
   text-align: justify;
-  
 }
 
-.skills-text{
+.skills-text {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
 }
-.skills-text h2{
+.skills-text h2 {
   font-size: 30px;
-  color: #AAA7F2;
+  color: #aaa7f2;
 }
-.skills-text p{
+.skills-text p {
   width: 350px;
   font-family: sans-serif;
   text-align: justify;
 }
-.language-logos{
+.language-logos {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.language-logos img{
+.language-logos img {
   width: 100px;
   height: 100px;
   margin: 50px;
 }
-.language-logos img.rotateimg180{
+.language-logos img.rotateimg180 {
   width: 115px;
   height: 100px;
 }
 
-
-
-@media screen and (max-width: 700px){
-  .language-logos{
+@media screen and (max-width: 700px) {
+  .language-logos {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 60px;
   }
-  .language-logos img{
+  .language-logos img {
     width: 100px;
     height: 100px;
-    
   }
 }
 
-.project-links{
+.project-links {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin-top: 50px;
 }
-.project-links h2{
+.project-links h2 {
   text-align: center;
   font-size: 40px;
-  color: #AAA7F2;
+  color: #aaa7f2;
 }
-.project-links a{
+.project-links a {
   margin: 5px;
-  border: solid 3px #5852F2;
+  border: solid 3px #5852f2;
   border-radius: 10px;
   padding: 10px;
   text-decoration: none;
@@ -222,7 +217,7 @@ p{
   padding-right: 25px;
 }
 
-.github-h3{
+.github-h3 {
   display: flex;
   justify-content: center;
   color: rgb(248, 248, 72);
@@ -231,36 +226,35 @@ p{
   margin-top: 50px;
   font-size: larger;
 }
-.github-anchor{
+.github-anchor {
   display: flex;
   justify-content: center;
 }
 
-.footer-line-break{
+.footer-line-break {
   width: 100%;
   height: 1px;
   background-color: #2a3bfb;
   margin-top: 50px;
 }
 
-.contact{
+.contact {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 20px;
 }
-.contact span{
+.contact span {
   font-family: sans-serif;
   font-weight: lighter;
 }
-.contact a{
+.contact a {
   margin-bottom: 30px;
-
 }
 
-@media screen and (max-width: 700px){
-  .project-links{
+@media screen and (max-width: 700px) {
+  .project-links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,7 +262,7 @@ p{
     margin-top: 0px;
     margin-bottom: 300px;
   }
-  .blue{
+  .blue {
     width: 100%;
     height: 50px;
     background-color: #262628;
@@ -278,27 +272,29 @@ p{
   }
 }
 
- 
-  .rotateimg180 {
-    
-    -webkit-animation:spin 4s linear infinite;
-    -moz-animation:spin 4s linear infinite;
-    animation:spin 4s linear infinite;
+.rotateimg180 {
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
 }
-@-moz-keyframes spin { 
-    100% { -moz-transform: rotate(360deg); } 
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
 }
-@-webkit-keyframes spin { 
-    100% { -webkit-transform: rotate(360deg); } 
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
 }
-@keyframes spin { 
-    100% { 
-        -webkit-transform: rotate(360deg); 
-        transform:rotate(360deg); 
-    } 
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
-.cnt{
+.cnt {
   color: rgb(158, 240, 126);
-  font-family: 'cedarville-cursive';
+  font-family: "cedarville-cursive";
 }
